@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ติดต่อ - Wuttipong Saejiam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Wuttipong<span>.port</span></div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-toggle">☰</label>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="about.html">ประวัติและทักษะ</a></li>
+        <li><a href="projects.html">ผลงาน</a></li>
+        <li><a href="contact.html" class="active">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>ช่องทางการติดต่อ</h1>
+      <p style="color: var(--text-muted); margin-bottom: 2rem;">หากมีข้อสงสัย ต้องการสอบถามข้อมูลเพิ่มเติม สามารถติดต่อได้ผ่านช่องทางด้านล่าง</p>
+
+      <div class="grid-2">
+        <!-- ฝั่งซ้าย: ข้อมูลติดต่อแบบการ์ดไอคอน (กดได้ทั้งกล่อง) -->
+        <div>
+          <h2>Contact Info</h2>
+          
+          <!-- กล่อง 1: EMAIL (เปิดเมล) -->
+          <a href="mailto:wuttipong.s232@gmail.com" class="contact-info-card" style="text-decoration: none; cursor: pointer;">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">EMAIL</div>
+              <div style="color: var(--primary); font-weight: 600;">wuttipong.s232@gmail.com</div>
+            </div>
+          </a>
+
+          <!-- กล่อง 2: GITHUB (เปิดเว็บใหม่) -->
+          <a href="https://github.com/Wuttipongs232" target="_blank" class="contact-info-card" style="text-decoration: none; cursor: pointer;">
+            <div class="contact-icon">💻</div>
+            <div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">GITHUB</div>
+              <div style="color: var(--primary); font-weight: 600;">github.com/Wuttipongs232</div>
+            </div>
+          </a>
+
+          <!-- กล่อง 3: INSTAGRAM (เปิดเว็บใหม่) -->
+          <a href="https://instagram.com/nick.noen" target="_blank" class="contact-info-card" style="text-decoration: none; cursor: pointer;">
+            <div class="contact-icon">📸</div>
+            <div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">INSTAGRAM</div>
+              <div style="color: var(--primary); font-weight: 600;">@nick.noen</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- ฝั่งขวา: ฟอร์มติดต่อ -->
+        <div>
+          <h2>ส่งข้อความถึงผม</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">ชื่อ-นามสกุล</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="เช่น สมชาย ใจดี" required>
+            </div>
+            <div class="form-group">
+              <label for="email">อีเมลของคุณ</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">หัวข้อเรื่อง</label>
+              <input type="text" id="subject" name="subject" class="form-control" placeholder="เรื่องที่ต้องการติดต่อ" required>
+            </div>
+            <div class="form-group">
+              <label for="message">ข้อความ</label>
+              <textarea id="message" name="message" rows="4" class="form-control" placeholder="พิมพ์รายละเอียดข้อความ..." required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">ส่งข้อความเลย ➔</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Wuttipong Saejiam. 055</p>
+  </footer>
+
+</body>
+</html>
