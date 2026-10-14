@@ -19,15 +19,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #2563eb;          /* Vibrant Royal Blue */
-  --primary-hover: #1d4ed8;
+  --primary: #5a81d5;          /* Vibrant Royal Blue */
+  --primary-hover: #3663e0;
   --primary-light: #eff6ff;
-  --bg-main: #cedae6;          /* Slate 100 soft background */
+  --bg-main: #bdd5ea;          /* Slate 100 soft background */
   --bg-card: #ffffff;
   --text-title: #0f172a;       /* Slate 900 */
   --text-body: #334155;        /* Slate 700 */
   --text-muted: #64748b;       /* Slate 500 */
-  --border: #e2e8f0;           /* Slate 200 */
+  --border: #b3cceb;           /* Slate 200 */
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.04);
