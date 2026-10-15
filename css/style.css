@@ -508,7 +508,6 @@ h2::before {
     padding-top: 0.75rem;
   }
 
-  /* แสดง Navigation เมื่อกดปุ่มแฮมเบอร์เกอร์ */
   #menu-toggle:checked ~ nav {
     display: block;
   }
@@ -533,10 +532,10 @@ h2::before {
     color: #ffffff;
   }
 
-  /* Layout Adjustments for Mobile */
+  /* Layout for Mobile */
   main {
     width: 92%;
-    margin: 1.25rem auto;
+    margin: 1rem auto;
   }
 
   section {
